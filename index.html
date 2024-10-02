@@ -10,7 +10,7 @@
             margin: 0;
             padding: 0;
             background-color: #f9f9f9;
-            background-image: url('images/background.jpg'); /* Add your background image here */
+            background-image: url('background.jpg'); /* Add your background image here */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -40,18 +40,7 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
-        iframe {
-            width: 100%;
-            height: 400px;
-            border: none;
-            border-radius: 8px;
-        }
-        .certificate h3, .project h3 {
-            color: #0073e6;
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-        .project a {
+        a {
             display: inline-block;
             margin-top: 10px;
             padding: 10px 15px;
@@ -61,8 +50,13 @@
             border-radius: 5px;
             transition: background-color 0.3s;
         }
-        .project a:hover {
+        a:hover {
             background-color: #005bb5;
+        }
+        h3 {
+            color: #0073e6;
+            font-size: 1.2rem;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -73,27 +67,46 @@
         <!-- Certificates Section -->
         <div class="grid-container">
             <div class="certificate">
-                <iframe src="AWS Certified Solutions Architect - Associate certificate.pdf"></iframe>
                 <h3>AWS Certified Solutions Architect - Associate</h3>
+                <a href="AWS Certified Solutions Architect - Associate certificate.pdf" target="_blank">View Certificate</a>
             </div>
             <div class="certificate">
-                <iframe src="Red_Hat_Certificate_RHCSA-rhel_Ayushmaan_Singh_Sengar.pdf"></iframe>
-                <h3>Red Hat Certified System Administrator (RHCSA)</h3>
+                <h3>Intellipaat Certificate</h3>
+                <a href="intellipaat-certificate.pdf" target="_blank">View Certificate</a>
             </div>
-            <!-- Add more certificates similarly -->
             <div class="certificate">
-                <iframe src="intellipaat-certificate.pdf"></iframe>
-                <h3>Intellipaat Linux Training Certificate 3</h3>
+                <h3>KodeKloud Ansible Certificate</h3>
+                <a href="KodeKloud_Ansible1_Certificate.pdf" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate">
+                <h3>KodeKloud Git Certificate</h3>
+                <a href="KodeKloud_Git1_Certificate.pdf" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate">
+                <h3>KodeKloud Jenkins Certificate</h3>
+                <a href="KodeKloud_Jenkins1_Certificate.pdf" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate">
+                <h3>KodeKloud Kubernetes Certificate</h3>
+                <a href="KodeKloud_Kuberntes1_Certificate.pdf" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate">
+                <h3>KodeKloud Linux Certificate</h3>
+                <a href="KodeKloud_Linux1_Certificate.pdf" target="_blank">View Certificate</a>
+            </div>
+            <div class="certificate">
+                <h3>Red Hat RHCSA Certificate</h3>
+                <a href="Red_Hat_Certificate_RHCSA-rhel_Ayushmaan_Singh_Sengar.pdf" target="_blank">View Certificate</a>
             </div>
 
             <!-- Projects Section -->
             <div class="project">
-                <iframe src="S3-website.pdf"></iframe>
-                <h3>Project 1: Telekom Deutschland (5G Rollout)</h3>
+                <h3>IAM Policy Project</h3>
+                <a href="IAM-policy.pdf" target="_blank">View Project</a>
             </div>
             <div class="project">
-                <iframe src="Red_Hat_Certificate_RHCSA-rhel_Ayushmaan_Singh_Sengar.pdf"></iframe>
-                <h3>Project 2: Dish Network (ORAN 5G)</h3>
+                <h3>S3 Website Project</h3>
+                <a href="S3-website.pdf" target="_blank">View Project</a>
             </div>
         </div>
     </div>
